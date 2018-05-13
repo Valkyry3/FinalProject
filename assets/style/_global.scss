@@ -1,0 +1,58 @@
+@mixin center-in-parent {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.hero {
+    height: 100vh;
+    background-color: teal;
+
+    .container {
+        position: absolute;
+        @include center-in-parent;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: $color1;
+    font-family: $titleText;
+    padding: 5px;
+}
+
+body {
+    background-color: $color5;
+    text-align: center;
+
+    p {
+        color: $color2;
+        font-family: $mainText;
+        width: 700px;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .upcoming {
+        color: mediumaquamarine;
+        transform: translateX(100px);
+        transition: .5s all;
+    }
+
+    .upcoming button {
+        cursor: pointer;
+        background-color: teal;
+        border: none;
+        color: white;
+        padding: 13px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        border-radius: 50%
+    }
+}

@@ -1,0 +1,118 @@
+.hero {
+  height: 100vh;
+  background-color: teal; }
+  .hero .container {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #eaa1c2;
+  font-family: "Bad Script", cursive;
+  padding: 5px; }
+
+body {
+  background-color: #04202f;
+  text-align: center; }
+  body p {
+    color: #b0e0e6;
+    font-family: "Raleway", sans-serif;
+    width: 700px;
+    padding-left: 25%;
+    padding-right: 25%; }
+  body .upcoming {
+    color: mediumaquamarine;
+    transform: translateX(100px);
+    transition: .5s all; }
+  body .upcoming button {
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 13px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 50%; }
+
+nav ul {
+  list-style: none;
+  padding: 20px; }
+  nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border: dotted 5px;
+    margin: 20px;
+    font-family: "Bad Script", cursive, 40px; }
+  nav ul a {
+    text-decoration: none;
+    color: #eaa1c2;
+    font-family: "Raleway", sans-serif, 40px; }
+  nav ul a:visited {
+    text-decoration: none;
+    color: #04202f; }
+  nav ul a:hover {
+    text-decoration: underline; }
+  nav ul a:active {
+    text-decoration: underline; }
+
+header {
+  background-color: #c75358;
+  padding: 20px; }
+  header ls {
+    font-family: "Reenie Beanie", cursive, 20px;
+    color: #eaa1c2;
+    text-decoration: none; }
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: #b0e0e6;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+input[type=submit]:hover {
+  background-color: #d2b2a0; }
+
+.container {
+  border-radius: 5px;
+  background-color: #b0e0e6;
+  padding: 20px; }
+
+header {
+  background-color: #c75358;
+  padding: 20px; }
+  header ls {
+    font-family: "Reenie Beanie", cursive, 20px;
+    color: #eaa1c2;
+    text-decoration: none; }
+
+footer {
+  background-color: #c75358;
+  padding: 20px; }
+  footer p {
+    font-family: "Reenie Beanie", cursive, 20px;
+    color: #eaa1c2; }
+
+/*# sourceMappingURL=main.css.map */
